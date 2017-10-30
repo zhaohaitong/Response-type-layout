@@ -1,52 +1,64 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-body{
-    font-size: 1.2rem; 
+
+body {
+    font-size: 1.2rem;
 }
-a{
+
+a {
     color: #666;
     text-decoration: none;
 }
-p{
+
+p {
     padding: 1.4rem 0;
 }
-.clearflx:after{
-    content:'';
+
+.clearflx:after {
+    content: '';
     display: block;
     clear: both;
 }
+
 header .top {
     width: 100%;
     background: #555;
 }
-header .top-inner{
+
+header .top-inner {
     width: 95%;
     margin: 0 auto;
     height: 3rem;
     line-height: 3rem;
 }
-header .top span{
+
+header .top span {
     float: left;
     color: #fff;
     font-size: 1.2rem;
 }
-header .top ul{
+
+header .top ul {
     float: right;
 }
-header .top ul li{
+
+header .top ul li {
     display: inline-block;
     padding: 0 1rem;
 }
-header .top ul li + li{
+
+header .top ul li+li {
     border-left: 1px solid #fff;
 }
-header .top ul li a{
+
+header .top ul li a {
     text-decoration: none;
     color: #fff;
 }
@@ -61,7 +73,8 @@ header .main .logo {
     width: 15rem;
     height: 3.5rem;
 }
-header .main .logo img{
+
+header .main .logo img {
     width: 100%;
 }
 
@@ -97,20 +110,17 @@ header .main ul li a.active {
     }
 }
 
-@media only screen and (min-width: 30.0625em) and (max-width: 50em) {
-
-}
+@media only screen and (min-width: 30.0625em) and (max-width: 50em) {}
 
 @media only screen and (max-width: 30em) {
     header .top .tel,
     header .top ul li:nth-child(3),
     header .top ul li:nth-child(4) {
         display: none;
-
     }
 }
-@media only screen and (max-width: 50em) {
 
+@media only screen and (max-width: 50em) {
     header .main .logo {
         float: none;
         display: block;
@@ -118,30 +128,24 @@ header .main ul li a.active {
         margin: 1.5rem auto 0.5rem;
         text-align: center;
     }
-
     header .main ul {
         text-align: center;
     }
-
     header .main ul li {
         border: none;
     }
-
     header .main ul li a {
         padding: 0 1.5rem;
     }
 }
 
 @media only screen and (max-width: 30em) {
-
     header .main ul li {
         line-height: 3rem;
     }
-
     header .main ul li:first-child {
         display: none;
     }
-
     header .main ul li a {
         font-weight: normal;
         padding: 0 0.5rem;
@@ -150,28 +154,31 @@ header .main ul li a.active {
 
 
 /*网站主要内容*/
-.container{
+
+.container {
     width: 100%;
 }
+
 .content {
     width: 100%;
     background-color: #7c7365;
 }
 
-.content .money{
+.content .money {
     max-width: 90%;
     margin: 0 auto;
     font-size: 1.5rem;
 }
 
-.content .money div{
+.content .money div {
     float: left;
     padding: 1rem;
     text-align: left;
     line-height: 3rem;
     color: #fff;
 }
-.content .money div .money-data{
+
+.content .money div .money-data {
     display: inline-block;
     font-size: 2.2rem;
     color: #ff9900;
@@ -182,27 +189,27 @@ header .main ul li a.active {
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 1px 2px 1px #333 inset;
 }
+
 .content .money .search {
     float: right;
     text-align: right;
 }
 
 .content .search a {
-
     display: inline-block;
     color: #fff;
 }
+
 .search a:hover {
     text-decoration: underline;
 }
-@media only screen and (max-width: 50em) {
 
+@media only screen and (max-width: 50em) {
     .containe .content .money div {
         padding: 1rem 0.5rem;
         font-size: 1.2rem;
     }
-
-    .content .money div .money-data{
+    .content .money div .money-data {
         font-size: 1.6rem;
         margin: 0;
         padding: 0;
@@ -210,27 +217,23 @@ header .main ul li a.active {
         box-shadow: none;
         background: transparent;
     }
-
     .money a {
         font-size: 1.2rem;
     }
 }
 
 @media only screen and (max-width: 30em) {
-
     .content {
         padding: 0.5rem 0;
     }
-
-    .content .money div{
+    .content .money div {
         float: none;
         text-align: center;
     }
-    .content .money .search{
+    .content .money .search {
         float: none;
         text-align: center;
     }
-
     .containe .content .money div {
         padding: 0;
     }
@@ -238,11 +241,14 @@ header .main ul li a.active {
 
 
 /*广告内容*/
-.ad{
+
+.ad {
     width: 100%;
 }
 
+
 /*特色区域*/
+
 .tedian {
     width: 90%;
     margin: 2rem auto;
@@ -258,7 +264,7 @@ header .main ul li a.active {
     box-shadow: 0 0 4px #ccc;
 }
 
-.tedian .item + .item {
+.tedian .item+.item {
     margin-left: 1.5rem;
 }
 
@@ -278,11 +284,12 @@ header .main ul li a.active {
     width: 55%;
     color: #999;
 }
-.tedian .item div span{
+
+.tedian .item div span {
     display: block;
 }
-@media only screen and (min-width: 30.0625em) and (max-width: 50em) {
 
+@media only screen and (min-width: 30.0625em) and (max-width: 50em) {
     .tedian .item h3,
     .tedian .item div {
         display: block;
@@ -290,28 +297,25 @@ header .main ul li a.active {
         font-size: 2.6rem;
         text-align: center;
     }
-
     .tedian .item div {
         font-size: 1.2rem;
     }
 }
 
 @media only screen and (max-width: 30em) {
-
     .tedian {
         width: 96%;
         margin: 1rem auto;
     }
-
     .tedian .item {
         display: block;
         width: auto;
     }
-
-    .tedian .item + .item {
+    .tedian .item+.item {
         margin: 1rem 0 0;
     }
 }
+
 
 /* 最新公告 */
 
@@ -354,22 +358,22 @@ header .main ul li a.active {
     margin-right: 2rem;
     color: #ff9900;
 }
-@media only screen and (max-width: 30em) {
 
+@media only screen and (max-width: 30em) {
     .gonggao {
         width: 96%;
         margin: 1rem auto;
         font-size: 1.2rem;
     }
-
     .gonggao a {
         margin-left: 1rem;
     }
-
     .gonggao a span {
         display: none;
     }
 }
+
+
 /* 产品列表 */
 
 .product {
@@ -381,7 +385,7 @@ header .main ul li a.active {
     box-shadow: 0 0 4px #ccc;
 }
 
-.product .product-left{
+.product .product-left {
     float: left;
     width: 20%;
     margin-top: 3rem;
@@ -390,8 +394,6 @@ header .main ul li a.active {
     font-weight: normal;
     color: #635c51;
 }
-
-
 
 .product .product-left span {
     display: block;
@@ -414,7 +416,7 @@ header .main ul li a.active {
     width: 100%;
 }
 
-.product .product-right .item + .item {
+.product .product-right .item+.item {
     border-top: 1px solid #eee;
 }
 
@@ -501,90 +503,76 @@ header .main ul li a.active {
     background-color: #ccc !important;
     cursor: not-allowed;
 }
-@media only screen and (max-width: 50em) {
 
+@media only screen and (max-width: 50em) {
     .product .product-left {
         float: none;
         width: 100%;
         margin-top: 2rem;
         font-size: 2.2rem;
     }
-
     .product .product-left h3:first-child {
         margin-top: 0;
     }
-
     .product .product-left span {
         display: inline;
         font-size: 1.2rem;
     }
-
     .product .product-right {
         float: none;
         width: 100%;
     }
-
     .product .product-right .item h3 {
         margin-bottom: 0
     }
-
     .product .product-right .item span {
         font-size: 2.4rem;
     }
-
     .product .product-right .item .info {
         padding: 1rem 1rem 0;
         font-size: 1.2rem;
     }
-
     .product .product-right .item .info p span {
         font-size: 2rem;
     }
-
     .product .product-right .item .buy div {
         margin: 0.5rem auto;
     }
 }
 
 @media only screen and (max-width: 30em) {
-
     .product {
         width: 96%;
     }
-
     .product div h3:first-child:before {
         content: " ";
         display: table;
     }
-
     .product .product-right .item span {
         font-size: 2rem;
         margin-right: 0;
     }
-
     .product .product-right .item .info {
         float: right;
         width: 70%;
         padding: 1rem 0;
         border: none;
     }
-
     .product .product-right .item .info p span {
         font-size: 1.8rem;
     }
-
     .product .product-right .item .buy {
         clear: both;
         float: none;
         width: 100%;
         padding: 1rem 0 2rem;
     }
-
     .product .product-right .item .buy div {
         margin-top: 0;
         max-width: 26rem;
     }
 }
+
 
 /* 底部导航 */
 
@@ -606,7 +594,7 @@ header .main ul li a.active {
     filter: grayscale(100%);
     width: 20%;
     height: 35px;
-    background: url('../img/logo@1x.png') no-repeat left;
+    background: url('/response type layout/img/logo@1x.png') no-repeat left;
     background-size: 150px 35px;
 }
 
@@ -625,22 +613,17 @@ header .main ul li a.active {
     line-height: 3rem;
 }
 
-
 @media only screen and (max-width: 50em) {
-
     .footer-content .brand {
         display: none;
     }
-
     .footer-content ul {
         width: 20%;
     }
-
     .footer-content ul li {
         font-size: 1.2rem;
         line-height: 2rem;
     }
-
     .footer-content ul li.title {
         font-size: 1.4rem;
         line-height: 2.5rem;
@@ -651,12 +634,12 @@ header .main ul li a.active {
     .footer-content {
         width: 98%;
     }
-
     .footer-content ul li.title {
         font-size: 1.2rem;
         line-height: 2rem;
     }
 }
+
 
 /* 底部 */
 
